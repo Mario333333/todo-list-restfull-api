@@ -1,5 +1,5 @@
 {
-  "name": "my_first_restful_api",
+  "name": "tasks-rest-full-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,16 +8,9 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mario333333/my_first_restful_api.git"
-  },
   "author": "Mario Gaytan",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Mario333333/my_first_restful_api/issues"
-  },
-  "homepage": "https://github.com/Mario333333/my_first_restful_api#readme",
+  "homepage": "tasks-rest-full-api",
   "dependencies": {
     "awilix": "^6.0.0",
     "bcrypt": "^5.0.1",

@@ -52,7 +52,7 @@ class CommentService extends BaseService {
 
         const createdComment = await _commentRepository.create(comment)
         task.comments.push(createdComment);
-console.log(createdComment, task);
+
         return await _taskRepository.update(taskId, {comments: task.comments}) 
     }
 }
