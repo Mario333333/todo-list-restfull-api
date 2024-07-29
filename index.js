@@ -8,4 +8,4 @@ mongoose
   .then(() => {
     server.start();
   })
-  .catch(console.log);
+  // .catch(console.log);
